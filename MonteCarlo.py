@@ -74,31 +74,3 @@ class BetaMotion:
         self.T = T
         self.prices = []
         self.simulate_paths()
-
-
-
-
-
-INITAL_VALUE = 385_000
-NUMBER_MONTHS = 120
-VALUE_GROWTH = .04
-VOLITILITY = .03
-NUMBER_PATHS = 5000
-CHANGE_VOLITILITY_MONTH = 5 * 12
-NEW_VOLITILITY = .19
-
-
-
-price_paths_normal = []
-for _ in range(NUMBER_PATHS):
-    price_paths_normal.append(NormalMotion(INITAL_VALUE, VALUE_GROWTH/12, VOLITILITY/12, 1, 120).prices)
-
-
-for path in price_paths_normal:
-    plt.plot(path)
-plt.show()
-
-
-# Do It of a compnay looking to buy an advertising space:
-# How much is the space returning in revenue?
-# How does the price change of space affect it?
