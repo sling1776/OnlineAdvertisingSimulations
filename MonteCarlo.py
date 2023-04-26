@@ -34,7 +34,7 @@ class NormalMotion:
             # Market Increase = percent monthly drift * Current Price
             market_increase = self.drift * self.current_price
             # Market volitility = pull from standard normal distribution * monthly volitility * Current Price
-            dWt = np.random.normal(0, 1)  # 68% of the time the volitility will be < 3%
+            dWt = np.random.normal(0, 1)  # 68% of the time the volitility will be < the percent volatility
             volatility_price_change = self.volatility * dWt * self.current_price
          
             self.current_price += volatility_price_change + market_increase  # Add the change to the current price
