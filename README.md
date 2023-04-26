@@ -29,6 +29,8 @@ Because we don't have access to much real-world data about internet advertising,
 
 Click-through rate (CTR) is a metric used in online advertising to measure the ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement.
 
+### Requirements
+
 To run ```UserResponse.py``` you will need the following:
 
 * numpy
