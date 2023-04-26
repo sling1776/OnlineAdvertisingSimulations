@@ -9,13 +9,31 @@ In our project we intend to use three algorithms: Explore and Exploit, Monte Car
 
 ```UserResponse.py```
 
-Description of why.
+You don't always have the required information to make the best decision possible. In online advertising there are many different avenues one could take. This part of our project is dedicated to showing that the Epsilon-Greedy algorithm is a viable method of discovering the optimal advertising strategy. The strategies under consideration in our simulation are:
 
-For this side of internet advertising, we plan on using an explore and exploit algorithm.
+* Facebook
+  * Native ads
+  * Video ads
+  * Carousel ads
+  * Interactive ads
+* Google
+  * Search ads
+  * Display ads
+* Email
+  * North/South America
+  * UK
+  * Europe
+  * Asia/Pacific
+
+Because we don't have access to much real-world data about internet advertising, this is likely due to the competitive nature of advertising, we created mock distributions of the click-through-rates for the different strategies. We created these distributions from an article found at https://agencyanalytics.com/blog/average-click-through-rate.
+
+Click-through rate (CTR) is a metric used in online advertising to measure the ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement.
 
 To run ```UserResponse.py``` you will need the following:
 
-* Insert required libraries here
+* numpy
+* matplotlib
+* ``ExploreAndExploit.py``
 
 
 ## Advertising Space

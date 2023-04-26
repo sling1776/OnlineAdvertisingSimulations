@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from ExploreAndExploit import experiment
 
+# Click-through-rate probabilities taken from https://agencyanalytics.com/blog/average-click-through-rate
 def get_probabilities():
 
     facebook = [
