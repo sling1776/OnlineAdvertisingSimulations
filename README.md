@@ -35,6 +35,10 @@ To run ```UserResponse.py``` you will need the following:
 * matplotlib
 * ``ExploreAndExploit.py``
 
+### Output
+Here is the reward function: ![](images/reward.png)
+
+Here is the simulations graph: ![](images/simulations.png)
 
 ## Advertising Space
 

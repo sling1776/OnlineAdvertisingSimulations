@@ -65,6 +65,7 @@ def main():
     plt.plot(R_avg, ".")
     plt.xlabel("Step")
     plt.ylabel("Average Reward")
+    plt.title("Reward function")
     plt.grid()
     plt.show()
 
