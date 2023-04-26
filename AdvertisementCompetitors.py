@@ -3,6 +3,7 @@ from gameTheory import *
 s = Simulation()
 s.simulate(numStandard=1, title="Monopoly Standard Demo")
 s.simulate(numStandard=2, title="Shared Standard")
+s.simulate(numStandard=5, title="Shared Standard with Random Advertisement Values", rand=True)
 s.simulate(numBidders=1, numStandard=1, title="Bidder vs Standard")
 s.simulate(numBidders=2, title="Bidder vs Bidder")
 s.simulate(numBidders=2, numStandard=1, title="Bidder vs Bidder vs Standard")
