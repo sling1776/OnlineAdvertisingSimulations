@@ -42,6 +42,9 @@ Here is the reward function: ![](images/reward.png)
 
 Here is the simulations graph: ![](images/simulations.png)
 
+### Conclusion
+From the rewards graph we can see that the Epsilon-Greedy algorithm does improve over time and from the simulations graph we can see that it does make a decision, more or less. In the real world, one could decide to go with the best performing option after they observe each option significantly diverging.
+
 ## Advertising Space
 
 ```AdvertisingSpace.py```
