@@ -49,20 +49,29 @@ From the rewards graph we can see that the Epsilon-Greedy algorithm does improve
 
 ```AdvertisingSpace.py```
 
-Description of why.
+Choosing the most valuable advertising space for your company is the best way to increase revenue from your product. It is important that an advertising space brings in more revenue than it costs. By using a MonteCarlo algorithim we can predicit how an advertising space might improve for a product. Using this information we can determine which online advertising spaces are the best for a company. 
 
-We believe that a monte carlo algorithm similar to stock options can be utilized to solve the problem of advertising space pricing.
+We believe that a monte carlo algorithm similar to stock options can be utilized to solve the problem of advertising space pricing. To help calculate what a space might be worth we will use the revenue generated from the space subtracted from the price of the space. The value of the space also depends on the product that the company would be selling and the click to buyer ratio that the product brings. 
+
+Most of the simulation examples come from various popular advertising spaces. As not all the information needed is available since as researchers we are not selling products, we were able to esitmate averages for a fictitious company looking to buy an advertising space with various product prices and click to buyer ratios. 
+
+### Requirements
 
 To run ```AdvertisingSpace.py``` you will need the following:
 
-* Insert required libraries here
+* matplotlib
+* ``MonteCarlo.py``
+
+### Output
+
+Interesting points to note are for TicToc which does not do well for advertising. Even with a product revenue of $100 it is an extremely expensive advertising space and only ends up with a return of around $1. The best return ended up being Google Display advertisements. An interesting point to notice is that for many configurations, if the product is not priced high enough, advertising ends up being more expensive than its worth.
 
 
 ## Advertisement Competition
 
 ```AdvertisementCompetitors.py```
 
-Description of why.
+Having different strategies for obtaining advertising spaces is important. What is interesting is 
 
 Game theory algorithms will be implemented for simulation of this side of iternet advertisement.
 
