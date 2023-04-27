@@ -71,10 +71,18 @@ Interesting points to note are for TicToc which does not do well for advertising
 
 ```AdvertisementCompetitors.py```
 
-Having different strategies for obtaining advertising spaces is important. What is interesting is 
+Having different strategies for obtaining advertising spaces is important. What is interesting is to compare different strategies for companies to fight over different advertising spaces. When companies do this however, it drives up the price of the space. Additionally companies can try to buy out the other companies' spot in the space. This is expensive, but helps to drive out competitors. 
 
-Game theory algorithms will be implemented for simulation of this side of iternet advertisement.
+Game theory algorithms will be implemented for simulation of this side of iternet advertisement. We will use a series of strategies to simulate this. We will call the Passive approach "Standard". In this approach the companies will not try to bid other companies out and instead they will share the possible revenue. The aggressive approach will be called the "Bidders". These will pay extra if another company is targeting the same spot they are. Finally there is a "Hunter" type. These will seek out the 'best' spots and fight for them. 
+
+### Requirements
 
 To run ```AdvertisementCompetitors.py``` you will need the following:
 
-* Insert required libraries here
+* matplotlib
+* numpy
+* ``gameTheory.py``
+
+### Output
+
+Interesting things to note from running the simulations is that there isn't a best strategy to use. Sometimes the Standard strategy comes out on top when two bidder's bid each other out. Additionally even the hunter will often lose out when they come up against the bidders early on. From running the simulation, the best course of action for a company is to find a good advertisiment spot early and not have to compete for it. When competing for it, it ends up ruining the company early on. However, if the company is already successful, then out bidding other companies appears to be profitable.  
